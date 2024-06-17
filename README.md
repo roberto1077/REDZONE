@@ -1,1 +1,114 @@
 # REDZONE
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Página Web</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+        }
+        header {
+            background-image: url('ola.jpg'); /* Ruta a tu imagen */
+            background-size: cover; /* Asegura que la imagen cubra todo el header */
+            background-position: center; /* Centra la imagen */
+            color: rgb(236, 66, 66);
+            padding: 50px 0; /* Aumenté el padding para mejor visibilidad */
+            text-align: center;
+        }
+        nav ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            background-color: rgba(0, 0, 0, 0.5); /* Fondo semitransparente para el menú */
+            text-align: center; /* Centra los elementos del menú */
+        }
+        nav li {
+            display: inline-block; /* Cambiamos de float a inline-block */
+        }
+        nav li a {
+            display: block;
+            color: rgb(238, 237, 237);
+            text-align: center;
+            padding: 14px 17px;
+            text-decoration: none;
+        }
+        nav li a:hover {
+            background-color: #111;
+        }
+        .contenido {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            align-items: center;
+            padding: 20px;
+            flex: 1;
+        }
+        .texto {
+            flex: 1;
+            padding-right: 20px;
+        }
+        .imagen {
+            flex: 1;
+            padding-left: 20px;
+            text-align: center;
+        }
+        .imagen img {
+            max-width: 100%;
+            height: auto;
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+        }
+        footer a img {
+            width: 24px; /* Tamaño de los iconos */
+            height: 24px;
+            margin: 0 10px; /* Espacio entre los iconos */
+            vertical-align: middle; /* Alineación vertical */
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>RED-ZONE</h1>
+        <nav>
+            <ul>
+                <li><a href="aaaa1.html">Inicio</a></li>
+                <li><a href="partidos.html">Partidos</a></li>
+                <li><a href="posiciones.html">Posiciones</a></li>
+                <li><a href="resumenes.html">Resumenes</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section class="contenido">
+        <div class="texto">
+            <h2>LA CUNA DEL FUTBOL AMERICANO</h2>
+            <p> El futbol americano tiene un antiguo arraigo en nuestro país, donde se juega <br>
+                hace casi 130 años (todo comenzó con un partido no oficial en Xalapa, Veracruz durante el Porfiriato, <br>
+                 (en 1896), y la década de 1950 fue una etapa glamorosa para este deporte, sobre todo <br>
+                 en la comunidad estudiantil.</p>
+        </div>
+        <div class="imagen">
+            <img src="uwu.jpg" alt="Imagen de ejemplo">
+        </div>
+    </section>
+    <footer>
+        <p>Síguenos en:</p>
+        <a href="https://www.instagram.com/mexicahudc/?hl=es-la"><img src="instagram-1675670_1280.webp" alt="Instagram"></a>
+        <a href="https://www.facebook.com/MexicahUDC/?locale=es_LA"><img src="png-transparent-facebook-logo-computer-icons-facebook-logo-facebook-thumbnail.png" alt="Facebook"></a>
+        <p>&copy; 2024 RED-ZONE. Todos los derechos reservados.</p>
+    </footer>
+</body>
+</html>
+
+</html>
