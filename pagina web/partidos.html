@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Página Web</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+            background-color: #f4f4f4;
+        }
+        header {
+            background-image: url('ola.jpg'); /* Ruta a tu imagen */
+            background-size: cover; /* Asegura que la imagen cubra todo el header */
+            background-position: center; /* Centra la imagen */
+            color: rgb(236, 66, 66);
+            padding: 50px 0; /* Aumenté el padding para mejor visibilidad */
+            text-align: center;
+        }
+        nav ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            background-color: rgba(0, 0, 0, 0.5); /* Fondo semitransparente para el menú */
+            text-align: center; /* Centra los elementos del menú */
+        }
+        nav li {
+            display: inline-block; /* Cambiamos de float a inline-block */
+        }
+        nav li a {
+            display: block;
+            color: rgb(238, 237, 237);
+            text-align: center;
+            padding: 14px 17px;
+            text-decoration: none;
+        }
+        nav li a:hover {
+            background-color: #111;
+        }
+        .marcadores {
+            padding: 20px;
+            text-align: center;
+            flex: 1;
+        }
+        .marcador {
+            background-color: #333;
+            color: #fff;
+            margin: 10px 0;
+            padding: 10px;
+            border-radius: 5px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .equipo {
+            flex: 1;
+        }
+        .resultado {
+            background-color: #666;
+            color: #fff;
+            padding: 10px 20px;
+            border-radius: 5px;
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+        }
+        footer a img {
+            width: 24px; /* Tamaño de los iconos */
+            height: 24px;
+            margin: 0 10px; /* Espacio entre los iconos */
+            vertical-align: middle; /* Alineación vertical */
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>RED-ZONE</h1>
+        <nav>
+            <ul>
+                <li><a href="aaaa1.html">Inicio</a></li>
+                <li><a href="partidos.html">Partidos</a></li>
+                <li><a href="posiciones.html">Posiciones</a></li>
+                <li><a href="resumenes.html">Resumenes</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section class="marcadores">
+        <h2>Partidos Recientes</h2>
+        <div class="marcador">
+            <div class="equipo">MEXICAH</div>
+            <div class="resultado">20 - 0</div>
+            <div class="equipo">PANTERAS</div>
+        </div>
+        <div class="marcador">
+            <div class="equipo">MEXICAH</div>
+            <div class="resultado">28 - 0</div>
+            <div class="equipo">TIGRES</div>
+        </div>
+        <div class="marcador">
+            <div class="equipo">LEONES CUERNAVACA</div>
+            <div class="resultado">14 - 7</div>
+            <div class="equipo">MEXICAH</div>
+        </div>
+        <div class="marcador">
+            <div class="equipo">HALCONES</div>
+            <div class="resultado">0 - 7</div>
+            <div class="equipo">MEXICAH</div>
+        </div>
+        <div class="marcador">
+            <div class="equipo">ZORROS DORADOS</div>
+            <div class="resultado">22 - 0</div>
+            <div class="equipo">MEXICAH</div>
+        </div>
+        <div class="marcador">
+            <div class="equipo">HALCONES DE LA U.V</div>
+            <div class="resultado">7 - 0</div>
+            <div class="equipo">MEXICAH</div>
+        </div>
+        <div class="marcador">
+            <div class="equipo">LEONES CUERNAVACA</div>
+            <div class="resultado">14 - 0 (Semifinal)</div>
+            <div class="equipo">MEXICAH</div>
+        </div>
+    </section>
+    <footer>
+        <p>&copy; 2024 RED-ZONE. Todos los derechos reservados.</p>
+        <p>Síguenos en:</p>
+        <a href="https://www.instagram.com/mexicahudc/?hl=es-la" target="_blank">
+            <img src="instagram-1675670_1280.webp" alt="Instagram">
+        </a>
+        <a href="https://www.facebook.com/MexicahUDC/?locale=es_LA" target="_blank">
+            <img src="png-transparent-facebook-logo-computer-icons-facebook-logo-facebook-thumbnail.png" alt="Facebook">
+        </a>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Página Web</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+        }
+        header {
+            background-image: url('ola.jpg'); /* Ruta a tu imagen */
+            background-size: cover; /* Asegura que la imagen cubra todo el header */
+            background-position: center; /* Centra la imagen */
+            color: rgb(236, 66, 66);
+            padding: 50px 0; /* Aumenté el padding para mejor visibilidad */
+            text-align: center;
+        }
+        nav ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            background-color: rgba(0, 0, 0, 0.5); /* Fondo semitransparente para el menú */
+            text-align: center; /* Centra los elementos del menú */
+        }
+        nav li {
+            display: inline-block; /* Cambiamos de float a inline-block */
+        }
+        nav li a {
+            display: block;
+            color: rgb(238, 237, 237);
+            text-align: center;
+            padding: 14px 17px;
+            text-decoration: none;
+        }
+        nav li a:hover {
+            background-color: #111;
+        }
+        .tabla-partidos {
+            padding: 20px;
+            text-align: center;
+            flex: 1;
+        }
+        .tabla-partidos table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+        .tabla-partidos th, .tabla-partidos td {
+            border: 1px solid #ddd;
+            padding: 8px;
+        }
+        .tabla-partidos th {
+            background-color: #f2f2f2;
+            color: black;
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>RED-ZONE</h1>
+        <nav>
+            <ul>
+                <li><a href="aaaa1.html">Inicio</a></li>
+                <li><a href="partidos.html">Partidos</a></li>
+                <li><a href="posiciones.html">Posiciones</a></li>
+                <li><a href="resumenes.html">Resumenes</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section class="tabla-partidos">
+        <h2>Partidos Recientes</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>Fecha</th>
+                    <th>Equipo Local</th>
+                    <th>Equipo Visitante</th>
+                    <th>Resultado</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>01/06/2024</td>
+                    <td>Equipo A</td>
+                    <td>Equipo B</td>
+                    <td>20 - 14</td>
+                </tr>
+                <tr>
+                    <td>02/06/2024</td>
+                    <td>Equipo C</td>
+                    <td>Equipo D</td>
+                    <td>10 - 22</td>
+                </tr>
+                <tr>
+                    <td>03/06/2024</td>
+                    <td>Equipo E</td>
+                    <td>Equipo F</td>
+                    <td>17 - 19</td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+    <footer>
+        <p>&copy; 2024 Mi Página Web. Todos los derechos reservados.</p>
+    </footer>
+</body>
+</html>
